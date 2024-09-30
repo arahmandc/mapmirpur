@@ -25,6 +25,7 @@ navbar-links:
   Resources:
     - Data Collection Tools: "geodata"
     - Learn Data: "learndata"
+    - Field Data: "field"
   Contact: "contact"
 
 ################
