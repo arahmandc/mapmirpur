@@ -159,9 +159,6 @@
 
   {% if page.comments and site.staticman.repository and site.staticman.branch %}
   <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/leaflet.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/leaflet.awesome-markers.css" | relative_url }}">
   {% endif %}
 
   {% assign favicon_exists = site.static_files | where: "path", "/favicon.ico" | size %}
