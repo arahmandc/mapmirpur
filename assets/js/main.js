@@ -8,15 +8,13 @@
 // PASTE YOUR URLs HERE
 // these URLs come from Google Sheets 'shareable link' form
 // the first is the geometry layer and the second the points
-let geomURL =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vTsAyA0Hpk_-WpKyN1dfqi5IPEIC3rqEiL-uwElxJpw_U7BYntc8sDw-8sWsL87JCDU4lVg2aNi65ES/pub?output=csv";
-let pointsURL =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vSFQw9sVY16eQmN5TIjOH7CUaxeZnl_v6LcdE2goig1pSe9I3hipeOn1sOwmC4fS0AURefRWwcKExct/pub?output=csv";
+
+let pointsURL ="https://docs.google.com/spreadsheets/d/e/2PACX-1vTI0Rvn-WPqx8i5TXvteTrKvqTcyHxNd1War2iMHO_Ez9Sjgq7YjW3V6BXHC5ePUkLcJZjVFefp5hVz/pub?gid=1503930312&single=true&output=csv";
 
 window.addEventListener("DOMContentLoaded", init);
 
 let map;
-let sidebar;
+// let sidebar;
 let panelID = "my-info-panel";
 
 /*
@@ -37,33 +35,29 @@ function init() {
     }
   ).addTo(map);
 
-  sidebar = L.control
-    .sidebar({
-      container: "sidebar",
-      closeButton: true,
-      position: "right",
-    })
-    .addTo(map);
+  // sidebar = L.control
+  //   .sidebar({
+  //     container: "sidebar",
+  //     closeButton: true,
+  //     position: "right",
+  //   })
+  //   .addTo(map);
 
-  let panelContent = {
-    id: panelID,
-    tab: "<i class='fa fa-bars active'></i>",
-    pane: "<p id='sidebar-content'></p>",
-    title: "<h2 id='sidebar-title'>Nothing selected</h2>",
-  };
-  sidebar.addPanel(panelContent);
+  // let panelContent = {
+  //   id: panelID,
+  //   tab: "<i class='fa fa-bars active'></i>",
+  //   pane: "<p id='sidebar-content'></p>",
+  //   title: "<h2 id='sidebar-title'>Nothing selected</h2>",
+  // };
+  // sidebar.addPanel(panelContent);
 
-  map.on("click", function () {
-    sidebar.close(panelID);
-  });
+  // map.on("click", function () {
+  //   sidebar.close(panelID);
+  // });
 
   // Use PapaParse to load data from Google Sheets
   // And call the respective functions to add those to the map.
-  Papa.parse(geomURL, {
-    download: true,
-    header: true,
-    complete: addGeoms,
-  });
+  
   Papa.parse(pointsURL, {
     download: true,
     header: true,
@@ -120,11 +114,11 @@ function addGeoms(data) {
           // if this isn't added, then map.click is also fired!
           L.DomEvent.stopPropagation(e);
 
-          document.getElementById("sidebar-title").innerHTML =
-            e.target.feature.properties.name;
-          document.getElementById("sidebar-content").innerHTML =
-            e.target.feature.properties.description;
-          sidebar.open(panelID);
+          // document.getElementById("sidebar-title").innerHTML =
+          //   e.target.feature.properties.name;
+          // document.getElementById("sidebar-content").innerHTML =
+          //   e.target.feature.properties.description;
+          // sidebar.open(panelID);
         },
       });
     },
@@ -167,25 +161,25 @@ function addPoints(data) {
     marker.addTo(pointGroupLayer);
 
     // UNCOMMENT THIS LINE TO USE POPUPS
-    //marker.bindPopup('<h2>' + data[row].name + '</h2>There's a ' + data[row].description + ' here');
+    marker.bindPopup('<h2>' + data[row].name + '</h2>There' + data[row].description + ' here');
 
     // COMMENT THE NEXT GROUP OF LINES TO DISABLE SIDEBAR FOR THE MARKERS
-    marker.feature = {
-      properties: {
-        name: data[row].name,
-        description: data[row].description,
-      },
-    };
-    marker.on({
-      click: function (e) {
-        L.DomEvent.stopPropagation(e);
-        document.getElementById("sidebar-title").innerHTML =
-          e.target.feature.properties.name;
-        document.getElementById("sidebar-content").innerHTML =
-          e.target.feature.properties.description;
-        sidebar.open(panelID);
-      },
-    });
+    // marker.feature = {
+    //   properties: {
+    //     name: data[row].name,
+    //     description: data[row].description,
+    //   },
+    // };
+    // marker.on({
+    //   click: function (e) {
+    //     L.DomEvent.stopPropagation(e);
+    //     document.getElementById("sidebar-title").innerHTML =
+    //       e.target.feature.properties.name;
+    //     document.getElementById("sidebar-content").innerHTML =
+    //       e.target.feature.properties.description;
+    //     sidebar.open(panelID);
+    //   },
+    // });
     // COMMENT UNTIL HERE TO DISABLE SIDEBAR FOR THE MARKERS
 
     // AwesomeMarkers is used to create fancier icons
