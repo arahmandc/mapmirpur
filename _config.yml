@@ -20,7 +20,8 @@ author: Atikur Rahman
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  Home: "/"
+  About: "about"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
