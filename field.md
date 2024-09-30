@@ -19,13 +19,13 @@ subtitle:
         width: auto;
     }
         </style>
-    </head>
-    <body>
+</head>
+    
         <div id="map"></div>
         <script src="/assets/js/leaflet.js"></script>
         <script src="/assets/js/leaflet-sidebar.js"></script>
         <script src="/assets/js/leaflet.awesome-markers.min.js"></script>
         <script src="/assets/js/papaparse.min.js"></script>
         <script src="/assets/main.js"></script>
-    </body>
-</html>
+    
+
