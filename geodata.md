@@ -9,4 +9,4 @@ subtitle:
 
 ![Qr](assets/img/kobo.jpg)
 
-<img src="assets/img/boil_kobo.jpg" width="200" height="200">
+<img src="/assets/img/boil_kobo.jpg" width="200" height="200">
