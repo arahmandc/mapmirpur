@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Home
 subtitle:
 cover-img: /assets/img/bg-home.jpg

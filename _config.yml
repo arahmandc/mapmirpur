@@ -26,6 +26,7 @@ navbar-links:
     - Data Collection Tools: "geodata"
     - Learn Data: "learndata"
     - Field Data: "field"
+  Blogs:  "blogs"
   Contact: "contact"
 
 ################
