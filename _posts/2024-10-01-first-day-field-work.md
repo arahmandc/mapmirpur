@@ -45,7 +45,7 @@ Today we did a capacity development training. after lunch we did some field data
 ### After finishing this day we found some issues and requests.
 
 {: .box-warning}
-**Warning:** Data Issues.
+**Data Issues**
 
 * Data type and data naming confusion.
 * Missing full address.
@@ -55,7 +55,7 @@ Today we did a capacity development training. after lunch we did some field data
 
 
 {: .box-note}
-**Note:** Field requests and suggestions
+**Field requests and suggestions** 
 
 * Request for **Fuel Station** Option in form.
 * Suggestion change title **select payment access** to **Digital payment access**.
