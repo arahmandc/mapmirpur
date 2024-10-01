@@ -2,5 +2,5 @@
 layout: blog
 title: Blogs
 subtitle:
-cover-img: 
+cover-img: "/assets/img/bg-post.jpg"
 ---

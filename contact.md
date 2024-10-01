@@ -5,6 +5,10 @@ subtitle:
 cover-img: "/assets/img/bg-contact.jpg" 
 ---
 
+ # DROP US A NOTE!
+
+ ### We look forward to your inquiries and the opportunity to assist your business, organization or agency. Thank you for your time and consideration.
+
 <form
   action="https://formspree.io/f/xpwavlgg"
   method="POST"
