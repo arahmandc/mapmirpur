@@ -39,7 +39,7 @@ Today we did a capacity development training. after lunch we did some field data
 
 ## Collected data in Map view:
 
-[map]("/assets/img/blogs/mapday1.JPG")
+![map](/assets/img/blogs/mapday1.JPG)
 
 
 ### After finishing this day we found some issues and requests.

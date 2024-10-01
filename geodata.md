@@ -8,5 +8,5 @@ subtitle:
 <h3>Mobile Server Setup</h3>
 
 
-![Qr](assets/img/kobo.jpg)
+![Qr](assets/img/geodata/kobo.jpg)
 
