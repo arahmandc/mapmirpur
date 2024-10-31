@@ -30,6 +30,7 @@ The main information are identifing a data are below:
 Every Point of interest (POI) have name, those information give that separation from others. Every machine can read  english  speling easily. **In collecting time have to follow  in english speling not english translation** .
 
 Example : 
+
 ![hotel](/assets/img/learndata/main/hotel.jfif)
 
 Here <span style="color: green">**Rabbani Hotel & Restaurant**</span> or <span style="color: green">**Rabbani Hotel and Restaurant**</span> is currect english speling not <span style="color: red">**Rabbani Restaurant**</span> or <span style="color: red">**Rabbani Restaurant & Restaurant**</span> .
@@ -43,6 +44,7 @@ Bangla or **বাংলা** is local language.
 Geographic Location or Geolocation give a separate identity from other same name POIs.  
 
 Example : 
+
 ![hotel](/assets/img/learndata/main/hotel2.JPG)
 
 
@@ -167,9 +169,11 @@ Clinic data have also sub-categories.
 |      *           |        Blood Banks         |
 
 **Clinic**
+
 ![clinic](/assets/img/learndata/main/clinic.jpg)
 
 **Laboratories**
+
 ![Laboratories](/assets/img/learndata/main/lab.jpg)
 
 
@@ -192,9 +196,11 @@ Doctors Chamber data have also sub-categories.
 |      *           |        Homeopathy Doctor   |
 
 **Dentist**
+
 ![Dentist](/assets/img/learndata/main/dental.jpg)
 
 **Homeopathy Doctor**
+
 ![Homeopathy](/assets/img/learndata/main/homio.jpg)
 
 
@@ -225,9 +231,11 @@ Cafe have also sub-category.
 |      *           |         Drinks             |
 
 **Tea**
+
 ![tea](/assets/img/learndata/main/tea.jpg)
 
 **Coffee**
+
 ![Coffee](/assets/img/learndata/main/coffee.jpg)
 
 **<u>Fast Food</u>**
@@ -254,12 +262,15 @@ Education data have sub-category.
 
 
 **University**
+
 ![University](/assets/img/learndata/main/university.jpg)
 
 **Coaching Center**
+
 ![Coaching Center](/assets/img/learndata/main/coching.jpg)
 
 **Training Center**
+
 ![Training Center](/assets/img/learndata/main/training.jpg)
 
 
@@ -277,6 +288,7 @@ Emergency data have sub-category.
 
 
 **Police Station**
+
 ![Police Station](/assets/img/learndata/main/police.jpg)
 
 **Water point**
