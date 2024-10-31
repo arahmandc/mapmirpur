@@ -7,7 +7,9 @@ subtitle:
 
 ## Introduction
 
-The Project is aim to collect basic urban facilities data from the field. They are below: 
+The Project is aim to collect basic urban facilities data from the field. 
+
+The main information are identifing a data are below:
 
 * Name (English),
 * Name (Bangla),
@@ -149,14 +151,184 @@ Pharmacy data have also sub-categories.
 
 **<u>Clinic</u>**
 
+
+
+Clinic data have also sub-categories.
+
+|     Clinic       |        Category            |
+| :------          |        ---------------     |
+|      *           |        Clinic              |
+|      *           |        Nursing home        |
+|      *           |        Birthing center     |
+|      *           |        Dialysis centers    |
+|      *           |        Health Centre       |
+|      *           |        Urgent care         |
+|      *           |        Laboratories        |
+|      *           |        Blood Banks         |
+
+**Clinic**
+![clinic](/assets/img/learndata/main/clinic.jpg)
+
+**Laboratories**
+![Laboratories](/assets/img/learndata/main/lab.jpg)
+
+
 **<u>Hospital</u>**
+
+![hospital](/assets/img/learndata/main/hospital.jpg)
+
 
 **<u>Doctors Chamber</u>**
 
-### ATM
-![atm](/assets/img/learndata/atm.png)
+![doctor](/assets/img/learndata/main/doctors.jpg)
+
+
+Doctors Chamber data have also sub-categories.
+
+|     Doctor       |        Category            |
+| :------          |        ---------------     |
+|      *           |        Dentist             |
+|      *           |        Doctors             |
+|      *           |        Homeopathy Doctor   |
+
+**Dentist**
+![Dentist](/assets/img/learndata/main/dental.jpg)
+
+**Homeopathy Doctor**
+![Homeopathy](/assets/img/learndata/main/homio.jpg)
 
 
 
-### Government Office
+# Food Data
+
+Food data have sub-category.
+
+|  Food Data       |        Category            |
+| :------          |        ---------------     |
+|      *           |        Restaurant          |
+|      *           |        Cafe                |
+|      *           |        Fast Food           |
+
+**<u>Restaurant</u>**
+
+![hotel](/assets/img/learndata/main/hotel.jfif)
+
+
+**<u>Cafe</u>**
+
+Cafe have also sub-category.
+
+|  Cafe            |        Category            |
+| :------          |        ---------------     |
+|      *           |         Tea                |
+|      *           |         Coffee             |
+|      *           |         Drinks             |
+
+**Tea**
+![tea](/assets/img/learndata/main/tea.jpg)
+
+**Coffee**
+![Coffee](/assets/img/learndata/main/coffee.jpg)
+
+**<u>Fast Food</u>**
+
+![fast food](/assets/img/learndata/main/fastfood.jpg)
+
+
+## Education Data
+
+Education data have sub-category.
+
+| Education Data   |        Category            |
+| :------          |        ---------------     |
+|      *           |        School              |
+|      *           |        College             |
+|      *           |        University          |
+|      *           |        Kindergarten        |
+|      *           |        Coaching Center     |
+|      *           |        Training Center     |
+
+
+**School**
+![School](/assets/img/learndata/main/school.jpg)
+
+
+**University**
+![University](/assets/img/learndata/main/university.jpg)
+
+**Coaching Center**
+![Coaching Center](/assets/img/learndata/main/coching.jpg)
+
+**Training Center**
+![Training Center](/assets/img/learndata/main/training.jpg)
+
+
+## Emergency Data
+
+Emergency data have sub-category.
+
+| Emergency Data   |        Category            |
+| :------          |        ---------------     |
+|      *           |        Police Station      |
+|      *           |        Fire Station        |
+|      *           |        Ambulance           |
+|      *           |        Water point         |
+
+
+
+**Police Station**
+![Police Station](/assets/img/learndata/main/police.jpg)
+
+**Water point**
+
+![Water point](/assets/img/learndata/main/water1.jpg)
+
+**Water point**
+
+![Water point](/assets/img/learndata/main/water2.jpg)
+
+
+
+
+
+## Traffic Data 
+
+We divide in 3 sub categories in Traffic Data.
+
+| Traffic Data     |        Category            |
+| :------          |        ---------------     |
+|      *           |        Traffic Signal      |
+|      *           |        Human Traffic       |
+|      *           |        Traffic Police Box  |
+
+
+
+## Administration Data
+
+We divide in 3 sub categories in Administration Data.
+
+| Number           |        Category            |
+| :------          |        ---------------     |
+|      1           |        Government          |
+|      2           |        NGO                 |
+|      3           |        Commercial          |
+
+
+
+**<u> Government Office</u>**
+
 ![gov_office](/assets/img/learndata/gov_office.png)
+
+
+## Bank Data
+
+Bank or Financial service also important part of urban life.
+We divide in 2 sub categories in bank datas.
+
+**<u>Bank</u>**
+
+![bank](/assets/img/learndata/main/bank.jpg)
+ 
+ **<u>ATM</u>**
+
+![atm](/assets/img/learndata/atm.png)
